@@ -7,14 +7,10 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Submit from './components/Submit';
-import Resume from './components/Resume';
 import './index.css';
 
 export default class App extends Component {
   render () {
-   if(window.location.pathname === '/resume') {
-     return < Resume />
-   }
   return (
       <div>
       <Layout>
