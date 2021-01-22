@@ -1,6 +1,6 @@
 import memories from '../assets/memories.png';
 import exercises from '../assets/exercises.png';
-import todo from '../assets/todo.png';
+import face from '../assets/Face-Detection.png';
 
 export const projects = [
     {
@@ -26,11 +26,11 @@ export const projects = [
 
     {
       id: 3,
-      title:  'Todo List Editor',
-      content: 'This project is using EJS, Lodash, Node.js, Express & MongoDB, It is a simple task editor application that allows users to create and delete all kinds of tasks. I made this app in the beginning of my coding journey',
-      image: `${todo}`,
-      url: 'https://cindytodo.herokuapp.com/',
-      source: 'https://github.com/Cindy452/todoapp'
+      title:  'Face Detection App',
+      content: 'This is a full stack project which I used the clarifai api to recognize faces from submitted images, set up a server and database with Express, PostgreSQL and Knex.js. Passwords were hashed and kept secure using bcrypt.',
+      image: `${face}`,
+      url: 'https://face-detections-app.herokuapp.com/',
+      source: 'https://github.com/Cindy452/Face-Detection-App'
      
     },
     
