@@ -1,15 +1,15 @@
-import memories from '../assets/memories.png';
+import nestful from '../assets/nestful.png';
 import exercises from '../assets/exercises.png';
 import face from '../assets/Face-Detection.png';
 
 export const projects = [
     {
       id: 1,
-      title:  'Memories Editor',
-      content: 'This project is using React, Redux, Node.js, Express & MongoDB, It is a simple social media MERN application that allows users to post interesting events that happened in their lives.',
-      image: `${memories}`,
-      url: 'https://cindy-memories.netlify.app/',
-      source: 'https://github.com/Cindy452/Memories-project'
+      title:  'Nestful',
+      content: 'This is a MERN Stack based web app, the app has three main features: help user to check their retirment on track or off track, create an account and download the financial and goal setting templates',
+      image: `${nestful}`,
+      url: 'https://nestful.netlify.app/',
+      source: 'https://github.com/Cindy452/Nestful'
      
       
     
