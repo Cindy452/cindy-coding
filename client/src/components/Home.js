@@ -10,7 +10,7 @@ function Home() {
                         <Col>
                             <h1>Welcome to my website</h1>
                             <p>
-                            <Button tag='a' href='https://cindycoding.netlify.app/resume' color='success' size='large' target='_blank'>View Resume</Button>
+                            <Button tag='a' href='resume.pdf' color='success' size='large' target='_blank'>View Resume</Button>
                             </p>
                         </Col>
                     </Row>
